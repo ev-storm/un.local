@@ -1,0 +1,84 @@
+
+header{
+	/* width: 100%;
+	height: 7vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding:0 5% 0 18%;
+	margin: 0;
+	background-color: transparent; */
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 84%;
+	height: 7vh;
+	background-color: #ffffff00;
+	border-radius: 0 0 2vw 2vw;
+	box-shadow: 0 0 2vw #00000000;
+	padding:0 5vw 0 5vw;
+	margin: 0 1.7vw;
+	z-index: 99;
+}
+.menu{
+	display: flex;
+	gap: 2vw;
+}
+.menu-contacts{
+	display: flex;
+	gap: 1vw;
+}
+.menu-item{
+	color: var(--dark_blue);
+	cursor: pointer;
+	font-weight: 500;
+}
+.menu-item h2{
+	cursor: pointer;
+}
+.menu-contacts{
+	display: flex;
+	align-items: center;
+	justify-content: start;
+}
+.menu:hover{
+	color: var(--blue);
+	transition: var(--duration);
+}
+.menu-item svg path{
+	fill: var(--dark_blue);
+	transition: var(--duration);
+	cursor: pointer;
+	font-weight: 500;
+}
+.menu-item:hover svg path{
+	fill: var(--blue);
+	transition: var(--duration);
+}
+/* .menu-item:hover{
+	color: var(--blue);
+	transition: var(--duration);
+} */
+.under-menu-item{
+	width: 0%;
+	background-color: var(--dark_blue);
+	height: 0.05vw;
+	margin-top: 0.1vw;
+	transition: var(--duration);
+}
+.menu-item-con:hover .under-menu-item{
+	width: 100%;
+	transition: var(--duration);
+}
+.menu-item-con.active .under-menu-item{
+	width: 100%;
+	transition: var(--duration);
+}
+.menu-item-con{
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+}

@@ -1,0 +1,141 @@
+.about-swiper{
+	padding: 3vw 0 0 0 !important;
+}
+.about-title{
+	display: flex;
+	flex-direction: column;
+	padding: 3vw 2vw 0 2vw;
+}
+.about-title_text {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.about-title_text div h2{
+	width: 100%;
+	font-size: 0.8vw;
+	margin-top: 2vw;
+	font-weight: 500;
+	color: #3b3b3b;
+}
+.a-1{
+	color: var(--blue);
+	font-weight: 500;
+	cursor: pointer;
+}
+.about-title h1{
+	font-size: 2vw;
+	font-weight: 500;
+	color:var(--blue);
+}
+
+.about-title_text-1{
+	font-size: 1vw;
+	color: var(--dark_blue);
+	font-weight: 500;
+}
+.about-title_text-1 span{
+	font-size: 1vw;
+	color: var(--dark_blue);
+	font-weight: 500;
+}
+.about-title_text-main{
+	margin-top: 2vw;
+	width: 40vw;
+	height: 20vw;
+}
+.about-title_text-main h3{
+	font-size: 0.8vw;
+	font-weight: 400;
+}
+.btn-about{
+	margin-top: 2vw;
+	font-size: 1vw;
+	background-color: var(--blue);
+	color: #ffffff;
+	border-style: none;
+	padding: 0.7vw 1.5vw;
+	border-radius: 5vw;
+	cursor: pointer;
+	font-weight: 400;
+}
+.btn-about:hover{
+	transition: var(--duration);
+	background-color: var(--dark_blue);
+}
+.about-title_text-slide-1{
+	width: 100vw;
+}
+
+.btn-about-con{
+	position: absolute;
+	right: 6vw;
+	bottom: 4vw;
+	z-index: 10;
+}
+.about_btn_text{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5vw;
+	padding: 1vw 0 0 0;
+}
+.about_btn_text button{
+	font-size: 1vw;
+	color: var(--dark_blue);
+	font-weight: 500;
+	cursor: pointer;
+	background-color: transparent;
+	border-style: none;
+}
+.about_btn_text button:hover{
+	color: var(--blue);
+	transition: var(--duration);
+}
+.wrapper {
+	position: absolute;
+	width: 35vw;
+	justify-content: end;
+	align-items: end;
+	display: flex;
+	height: 30vw;
+	right: 6vw;
+	bottom: 8vw;
+}
+.under {
+	position: absolute;
+	width: 100%;
+	height: fit-content;
+	z-index: 1;
+}
+.cover {
+	position: absolute;
+	width: 100%;
+	height: fit-content;
+	z-index: 2;
+	clip-path: inset(0 100% 0 0);
+}
+.content-about{
+	margin: 1vw 0 0 1vw;
+}
+.about-carts-swiper{
+	width: 40vw;
+	background-color: #3b3b3b;
+	height: 20vw;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.about-carts{
+	background-color: grey;
+	font-size: 18px;
+	height: auto;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 30px;
+}
+
+
+/* .about-carts:nth-child(1n) {
+	background-color: rgb(206, 17, 17);
+} */
+

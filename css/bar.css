@@ -1,0 +1,163 @@
+.bar{
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 13%;
+	height: 100vh;
+	padding: 2vw 0 0 1.5vw;
+	background: rgb(51,122,183);
+	background: -moz-linear-gradient(66deg, rgba(51,122,183,1) 33%, rgba(23,54,81,1) 100%);
+	background: -webkit-linear-gradient(66deg, rgba(51,122,183,1) 33%, rgba(23,54,81,1) 100%);
+	background: linear-gradient(66deg, rgba(51,122,183,1) 33%, rgba(23,54,81,1) 100%);
+}
+.logo{
+	width: 10vw;
+	cursor: pointer;
+}
+.menu-bar-con {
+  margin: 5vw 0;
+}
+.menu-bar-con ul li {
+  margin: 0.5vw 0;
+}
+li h1 {
+  color: #ffffff;
+	font-weight: 500;
+	cursor: pointer;
+	font-size: 0.8vw;
+}
+
+
+
+
+/* menu-bar */
+.undermenu-bar {
+	display: none;
+}
+
+.menu-bar.active > .undermenu-bar {
+	display: block;
+}
+
+.menu-bar {
+	list-style-type: none;
+}
+.menu-bar h1{
+	color: #ffffffcf;
+	font-weight: 300;
+	cursor: pointer;
+	font-size: 0.8vw;
+	transition: var(--duration);
+}
+.menu-bar h1:hover{
+	color: #ffffff;
+	font-weight: 300;
+	cursor: pointer;
+	font-size: 0.8vw;
+	transition: var(--duration);
+}
+.menu-bar.active h1{
+	color: #ffffff;
+	font-weight: 500;
+	cursor: pointer;
+	font-size: 0.8vw;
+	transition: var(--duration);
+}
+
+/* under-menu */
+.under-menu h2{
+	color: #ffffffcf;
+	font-weight: 300;
+	margin-left: 1vw;
+	cursor: pointer;
+	font-size: 0.8vw;
+}
+.under-menu.active h2{
+	transition: var(--duration);
+	color: #ffffff;
+	font-weight: 500;
+}
+.under-menu:hover h2{
+	transition: var(--duration);
+	color: #ffffff;
+}
+/* ----------bar-item--------- */
+.bar-item h1{
+	margin-bottom: 0.6vw;
+}
+.bar-item h1{
+	color: #ffffff99;
+	font-weight: 300;
+	cursor: pointer;
+	font-size: 0.8vw;
+	transition: var(--duration);
+}
+.bar-item h1:hover{
+	color: #ffffff;
+	font-weight: 300;
+	margin-left: 0.5vw;
+	cursor: pointer;
+	font-size: 0.8vw;
+	transition: var(--duration);
+}
+.bar-item.active h1{
+	color: #ffffff;
+	font-weight: 600;
+	margin-left: 0.5vw;
+	cursor: pointer;
+	font-size: 0.8vw;
+	transition: var(--duration);
+}
+
+
+
+
+/* --------call-back----------- */
+.call-back{
+	width: 80%;
+	margin-top: 5vw;
+	position: absolute;
+	bottom: 0;
+}
+.call-back h1{
+	color: #ffffff;
+	font-weight: 500;
+}
+.call-back h2{
+	color: #ffffff99;
+	font-weight: 300;
+	font-size: 0.7vw;
+}
+.call-back form{
+	margin-top: 1vw;
+}
+.call-back form input{
+	background-color: transparent;
+	border-style: solid;
+	border-radius: 5vw;
+	border-width: 0.1vw;
+	border-color: #ffffff;
+	font-size: 0.8vw;
+	padding: 0.2vw 0.3vw;
+	color: #ffffff;
+	margin: 0.3vw 0;
+}
+.call-back form input::placeholder{
+	color: #ffffff69;
+	font-weight: 300;
+	padding-left: 1vw;
+	font-size: 0.7vw;
+}
+.call-back form button{
+	color: var(--blue);
+	width: 100%;
+}
+.C{
+	margin-top: 2vw;
+	color: #ffffff;
+	font-weight: 400;
+	cursor: pointer;
+	font-size: 0.6vw;
+}
