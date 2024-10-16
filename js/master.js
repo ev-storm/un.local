@@ -135,16 +135,30 @@ document.querySelectorAll('.segment, .under-menu').forEach(item => {
 
 
 //about image
-document.querySelector('.wrapper').addEventListener('mousemove', function(e) {
-	const rect = e.currentTarget.getBoundingClientRect();
-	const offsetX = e.clientX - rect.left;
-	const width = rect.width;
+// document.querySelector('.wrapper').addEventListener('mousemove', function(e) {
+// 	const rect = e.currentTarget.getBoundingClientRect();
+// 	const offsetX = e.clientX - rect.left;
+// 	const width = rect.width;
+
+// 	// Рассчитываем процент для сдвига clip-path
+// 	const percentage = (offsetX / width) * 100;
+
+// 	const redDiv = document.querySelector('.cover');
+	
+// 	// Изменяем область обрезки в зависимости от позиции курсора
+// 	redDiv.style.clipPath = `inset(0 ${100 - percentage}% 0 0)`;
+// });
+
+window.addEventListener('mousemove', function(e) {
+	// Получаем размеры всего окна
+	const viewportWidth = window.innerWidth;
 
 	// Рассчитываем процент для сдвига clip-path
-	const percentage = (offsetX / width) * 100;
+	const offsetX = e.clientX; // Положение курсора по оси X
+	const percentage = (offsetX / viewportWidth) * 100; // Преобразуем в процент
 
 	const redDiv = document.querySelector('.cover');
-	
+
 	// Изменяем область обрезки в зависимости от позиции курсора
 	redDiv.style.clipPath = `inset(0 ${100 - percentage}% 0 0)`;
 });

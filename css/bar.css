@@ -35,10 +35,24 @@ li h1 {
 /* menu-bar */
 .undermenu-bar {
 	display: none;
+	opacity: 0;
+	transition: opacity 0.5s ease;
 }
 
 .menu-bar.active > .undermenu-bar {
 	display: block;
+	animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+	from {
+			opacity: 0;
+			transform: translateY(-10px); /* Сдвиг вверх для эффекта */
+	}
+	to {
+			opacity: 1;
+			transform: translateY(0);
+	}
 }
 
 .menu-bar {
@@ -48,21 +62,21 @@ li h1 {
 	color: #ffffffcf;
 	font-weight: 300;
 	cursor: pointer;
-	font-size: 0.8vw;
+	font-size: 0.7vw;
 	transition: var(--duration);
 }
 .menu-bar h1:hover{
 	color: #ffffff;
 	font-weight: 300;
 	cursor: pointer;
-	font-size: 0.8vw;
+	font-size: 0.7vw;
 	transition: var(--duration);
 }
 .menu-bar.active h1{
 	color: #ffffff;
 	font-weight: 500;
 	cursor: pointer;
-	font-size: 0.8vw;
+	font-size: 0.7vw;
 	transition: var(--duration);
 }
 
@@ -72,7 +86,7 @@ li h1 {
 	font-weight: 300;
 	margin-left: 1vw;
 	cursor: pointer;
-	font-size: 0.8vw;
+	font-size: 0.7vw;
 }
 .under-menu.active h2{
 	transition: var(--duration);

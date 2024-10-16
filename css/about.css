@@ -4,16 +4,20 @@
 .about-title{
 	display: flex;
 	flex-direction: column;
-	padding: 3vw 2vw 0 2vw;
+	padding: 1vw 2vw 0 2vw;
 }
 .about-title_text {
 	display: flex;
+	flex-direction: row-reverse;
 	justify-content: space-between;
+}
+.about-title_text-slide-1{
+	margin: 0 0 0 2vw;
+	width: 60%;
 }
 
 
 .about-title_text div h2{
-	width: 100%;
 	font-size: 0.8vw;
 	margin-top: 2vw;
 	font-weight: 500;
@@ -46,8 +50,9 @@
 	height: 20vw;
 }
 .about-title_text-main h3{
-	font-size: 0.8vw;
+	font-size: 0.7vw;
 	font-weight: 400;
+	line-height: 0.9vw;
 }
 .btn-about{
 	margin-top: 2vw;
@@ -64,9 +69,7 @@
 	transition: var(--duration);
 	background-color: var(--dark_blue);
 }
-.about-title_text-slide-1{
-	width: 100vw;
-}
+
 
 .btn-about-con{
 	position: absolute;
@@ -93,14 +96,11 @@
 	transition: var(--duration);
 }
 .wrapper {
-	position: absolute;
-	width: 35vw;
+	position: relative;
+	width: 60vw;
 	justify-content: end;
 	align-items: end;
 	display: flex;
-	height: 30vw;
-	right: 6vw;
-	bottom: 8vw;
 }
 .under {
 	position: absolute;
