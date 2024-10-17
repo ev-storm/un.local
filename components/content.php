@@ -85,9 +85,9 @@
 
 			<div class="segment-btn">
 				<div class="segment-cover">
-					<h2>Стомотология</h2>
+					<h2>Стоматология</h2>
 				</div>
-				<div class="segment low i-dent " value="Стомотология">
+				<div class="segment low i-dent " value="Стоматология">
 					<img src="/assets/icons/dent.svg" alt="">
 				</div>
 			</div>

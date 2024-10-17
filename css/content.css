@@ -233,6 +233,7 @@
 	background-color: var(--blue);
 	color: #ffffff;
 	border-color: var(--blue);
+	box-shadow: 0 0.2vw 0.5vw #2222224f;
 }
 
 

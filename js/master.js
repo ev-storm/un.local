@@ -133,36 +133,24 @@ document.querySelectorAll('.segment, .under-menu').forEach(item => {
 
 
 
-
-//about image
-// document.querySelector('.wrapper').addEventListener('mousemove', function(e) {
-// 	const rect = e.currentTarget.getBoundingClientRect();
-// 	const offsetX = e.clientX - rect.left;
-// 	const width = rect.width;
-
-// 	// Рассчитываем процент для сдвига clip-path
-// 	const percentage = (offsetX / width) * 100;
-
-// 	const redDiv = document.querySelector('.cover');
-	
-// 	// Изменяем область обрезки в зависимости от позиции курсора
-// 	redDiv.style.clipPath = `inset(0 ${100 - percentage}% 0 0)`;
-// });
-
 window.addEventListener('mousemove', function(e) {
 	// Получаем размеры всего окна
 	const viewportWidth = window.innerWidth;
 
-	// Рассчитываем процент для сдвига clip-path
-	const offsetX = e.clientX; // Положение курсора по оси X
-	const percentage = (offsetX / viewportWidth) * 100; // Преобразуем в процент
-
+	// Получаем элемент redDiv (cover)
 	const redDiv = document.querySelector('.cover');
+	const rect = redDiv.getBoundingClientRect();
 
-	// Изменяем область обрезки в зависимости от позиции курсора
-	redDiv.style.clipPath = `inset(0 ${100 - percentage}% 0 0)`;
+	// Положение курсора по оси X
+	const offsetX = e.clientX - rect.left; // Смещение относительно redDiv
+	const percentage = (offsetX / rect.width) * 100; // Преобразуем в процент
+
+	// Убедимся, что процент в пределах 0-100
+	const clampedPercentage = Math.max(0, Math.min(100, percentage));
+
+	// Изменяем область обрезки в зависимости от положения курсора
+	redDiv.style.clipPath = `inset(0 ${100 - clampedPercentage}% 0 0)`;
 });
-
 
 
 

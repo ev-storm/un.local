@@ -58,7 +58,6 @@
 				<button class="button btn-slide" value="Этикетка для печенья"> Этикетка для печенья</button>
 				<button class="button btn-slide" value="Этикетка для мясных и рыбных полуфабрикатов"> Этикетка для полуфабрикатов</button>
 				<button class="button btn-slide" value="Этикетка для готовых блюд"> Этикетка для готовых блюд</button>
-
 				<button class="button btn-slide" value="Этикетка для метизов и крепежа"> Этикетка для метизов и крепежа</button>
 				<!-- 50 -->
 				<button class="button btn-slide" value="Этикетка для зоотоваров"> Этикетка для зоотоваров</button>
@@ -66,10 +65,21 @@
 				<button class="button btn-slide" value="Этикетка для электротехники"> Этикетка для электротехники</button>
 				<button class="button btn-slide" value="Этикетка для бытовой химии"> Этикетка для бытовой химии</button>
 				<button class="button btn-slide" value="Этикетка для готовых автотоваров"> Этикетка для автотоваров</button>
-
-			
-
-
+				<!-- 55 -->
+				<button class="button btn-slide" value="Листок-вкладыш в картонную коробку для флакона"> Вкладыш для флакона</button>
+				<button class="button btn-slide" value="Листок-вкладыш в картонную коробку для банки"> Вкладыш для банки</button>
+				<button class="button btn-slide" value="Листок-вкладыш в картонную коробку для капсул"> Вкладыш для капсул</button>
+				<button class="button btn-slide" value="Листок-вкладыш в картонную коробку для лекарственных препаратов"> Вкладыш для лекарственных препаратов</button>
+				<button class="button btn-slide" value="Листок-вкладыш в картонный пенал для зубной пасты"> Вкладыш в пенал для зубной пасты</button>
+				<!-- 60 -->
+				<button class="button btn-slide" value="Листок-вкладыш в картонный пенал – промо с увеличенным рекламным полем для комплектации основного продукта подарками"> Вкладыш картонный пенал с промо </button>
+				<button class="button btn-slide" value="Листок-вкладыш в коробку для кремов, сывороток, косметических средств "> Вкладыш для кремов, сывороток, косметических средств  </button>
+				<button class="button btn-slide" value="Листок-вкладыш в коробку для игр и детского творчества"> Вкладыш в коробку для игр и детского творчества </button>
+				<button class="button btn-slide" value="Листок-вкладыш в в коробку для метизов и крепежа"> Вкладыш в коробку для метизов и крепежа </button>
+				<button class="button btn-slide" value="Листок-вкладыш в коробку для зоотоваров"> Вкладыш в коробку для зоотоваров </button>
+				<!-- 65 -->
+				<button class="button btn-slide" value="Листок-вкладыш в коробку для приборов"> Вкладыш в коробку для приборов</button>
+				<button class="button btn-slide" value="Листок-вкладыш в коробку для электротехники"> Вкладыш в коробку для электротехники</button>
 
 
 			</div>

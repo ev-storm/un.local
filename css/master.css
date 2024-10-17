@@ -59,7 +59,7 @@ h1,h2,h3,p,span{
 .button:active{
 	color: #ffffff;
 	background-color: var(--dark_blue);
-	border-color:  var(--dark_blue)
+	border-color:  var(--dark_blue);
 }
 
 

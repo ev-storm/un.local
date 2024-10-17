@@ -443,11 +443,99 @@
 					</div>
 					<img src="/assets/img/white.png" alt="">
 			</div> 
+			<!-- ---------  55 ---------- -->
+			<div class="swiper-slide segment-slide">
+					<div class="text">
+							<h1>Листок - вкладыш в картонную коробку для флакона</h1>
+							<h2>Особенности разработки</h2>
+					</div>
+					<img src="/assets/img/white.png" alt="">
+			</div> 
+			<!-- ---------  56 ---------- -->
+			<div class="swiper-slide segment-slide">
+					<div class="text">
+							<h1>Листок - вкладыш в картонную коробку для банки</h1>
+							<h2>Особенности разработки</h2>
+					</div>
+					<img src="/assets/img/white.png" alt="">
+			</div> 
+			<!-- ---------  57 ---------- -->
+			<div class="swiper-slide segment-slide">
+					<div class="text">
+							<h1>Листок - вкладыш в картонную коробку для капсул</h1>
+							<h2>Особенности разработки</h2>
+					</div>
+					<img src="/assets/img/white.png" alt="">
+			</div> 
+			<!-- ---------  58 ---------- -->
+			<div class="swiper-slide segment-slide">
+					<div class="text">
+							<h1>Листок - вкладыш в картонную коробку для лекарственных препаратов</h1>
+							<h2>Особенности разработки</h2>
+					</div>
+					<img src="/assets/img/white.png" alt="">
+			</div> 
+			<!-- ---------  59 ---------- -->
+			<div class="swiper-slide segment-slide">
+					<div class="text">
+							<h1>Инструкция - вкладыш в картонный пенал для зубной пасты</h1>
+							<h2>Особенности разработки</h2>
+					</div>
+					<img src="/assets/img/white.png" alt="">
+			</div> 
+			<!-- ---------  60 ---------- -->
+			<div class="swiper-slide segment-slide">
+					<div class="text">
+							<h1>Инструкция - вкладыш в картонный пенал – промо с увеличенным рекламным полем для комплектации основного продукта подарками</h1>
+							<h2>Особенности разработки</h2>
+					</div>
+					<img src="/assets/img/white.png" alt="">
+			</div> 
+			<!-- ---------  61 ---------- -->
+			<div class="swiper-slide segment-slide">
+					<div class="text">
+							<h1>Инструкция - вкладыш в коробку для кремов, сывороток, косметических средств </h1>
+							<h2>Особенности разработки</h2>
+					</div>
+					<img src="/assets/img/white.png" alt="">
+			</div> 
+			<!-- ---------  62 ---------- -->
+			<div class="swiper-slide segment-slide">
+					<div class="text">
+							<h1>Инструкция - вкладыш в коробку для игр и детского творчества</h2>
+					</div>
+					<img src="/assets/img/white.png" alt="">
+			</div> 
+			<!-- ---------  63 ---------- -->
+			<div class="swiper-slide segment-slide">
+					<div class="text">
+							<h1>Инструкция - вкладыш в коробку для метизов и крепежа</h2>
+					</div>
+					<img src="/assets/img/white.png" alt="">
+			</div> 
+			<!-- ---------  64 ---------- -->
+			<div class="swiper-slide segment-slide">
+					<div class="text">
+							<h1>Инструкция - вкладыш в коробку для зоотоваров</h2>
+					</div>
+					<img src="/assets/img/white.png" alt="">
+			</div> 
+			<!-- ---------  65 ---------- -->
+			<div class="swiper-slide segment-slide">
+					<div class="text">
+							<h1>Инструкция - вкладыш в коробку для приборов</h2>
+					</div>
+					<img src="/assets/img/white.png" alt="">
+			</div> 
+			<!-- ---------  66 ---------- -->
+			<div class="swiper-slide segment-slide">
+					<div class="text">
+							<h1>Инструкция - вкладыш в коробку для электротехники</h2>
+					</div>
+					<img src="/assets/img/white.png" alt="">
+			</div> 
 
-
-
-
-	
+			
 		</div>
 
 
