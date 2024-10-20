@@ -133,7 +133,7 @@
 					<h2>Промышленный</h2>
 				</div>
 				<div class="segment low i-prom" value="Промышленный">
-					<img src="/assets/icons/pus.svg" alt="">
+					<img src="/assets/icons/prom.svg" alt="">
 				</div>
 			</div>
 

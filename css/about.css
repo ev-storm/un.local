@@ -61,7 +61,7 @@
 	color: #ffffff;
 	border-style: none;
 	padding: 0.7vw 1.5vw;
-	border-radius: 5vw;
+	border-radius: 0.5vw;
 	cursor: pointer;
 	font-weight: 400;
 }
@@ -133,6 +133,7 @@
 	box-sizing: border-box;
 	padding: 30px;
 }
+
 
 
 /* .about-carts:nth-child(1n) {

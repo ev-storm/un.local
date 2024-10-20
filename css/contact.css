@@ -1,0 +1,128 @@
+.contact-con{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: end;
+	align-items: end;
+}
+.contact{
+	width: 85vw;
+	height: 90vh;
+	margin: 0 1vw 1vw 0;
+	background-color: #ffffff;
+	border-radius: 2vw;
+	box-shadow: 0 0 2vw #00000020;
+	padding: 1vw 2vw;
+	display: flex;
+	padding: 3vw 2vw 3vw 5vw;
+	
+}
+.contact_info{
+	width: 40%;
+	height: 100%;
+	flex-direction: column;
+	display: flex;
+	justify-content: space-between;
+}
+.contact_map{
+	width: 60%;
+	height: 100%;
+}
+.contact_item{
+	display: flex;
+	justify-content: start;
+	align-items: start;
+	margin-left: -3vw;
+	margin-bottom: 1.5vw;
+}
+.contact_item img{
+	width: 2vw;
+	margin-right: 1vw;
+}
+.contact_item-text{
+	display: flex;
+	flex-direction: column;
+}
+
+.contact_cart-title{
+	display: flex;
+}
+.contact_title h1{
+	color: var(--blue);
+	font-size: 2vw;
+	font-weight: 500;
+	margin-bottom: 1vw;
+	margin-top: 2vw;
+}
+.contact_item-text h2{
+	color: var(--dark_blue);
+	font-size: 0.9vw;
+	line-height: 1.3vw;
+	font-weight: 500;
+}
+.contact_item-text div{
+	display: flex;
+	flex-direction: row;
+	gap: 2vw;
+}
+.contact_item-text div h3{
+	color: var(--blue);
+	font-size: 0.9vw;
+	line-height: 1.3vw;
+	font-weight: 500;
+}
+.contact_item-text div h3 span{ 
+	color: var(--dark_blue);
+	font-size: 0.9vw;
+	line-height: 1.3vw;
+	font-weight: 500;
+}
+
+.contact_item-text h3{
+	color: var(--blue);
+	font-size: 0.9vw;
+	line-height: 1.3vw;
+	font-weight: 500;
+}
+.contact_cart-title{
+	margin-bottom: 1vw;
+	margin-top: 2vw;
+}
+.contact_cart-title h1{
+	color: var(--dark_blue);
+	font-size: 1.3vw;
+	font-weight: 500;
+}
+.contact_cart-title div img{
+	position: absolute;
+	margin-left: 1vw;
+	cursor: pointer;
+}
+.contact_copy, .contact_copy-active{
+	width: 1vw;
+}
+.contact_cart-title div:hover .contact_copy{
+	opacity: 0;
+	transition: all 0.2s ease;
+}
+.contact_copy{
+	z-index: 9;
+	opacity: 1;
+}
+.contact_copy-active{
+	z-index: 7;
+}
+.contact_cart h2{
+	color: var(--blue);
+	font-size: 0.9vw;
+	font-weight: 500;
+	line-height: 1.3vw;
+}
+.contact_cart h2 span{
+	color: var(--dark_blue);
+	font-size: 0.9vw;
+	font-weight: 500;
+}
+.contact_map iframe{
+	border-radius: 2vw;
+}

@@ -277,5 +277,78 @@
 .segment-slide.show{
 	display: block !important;
 }
+/* ----------------- SERT ------------------------*/
+
+.serti{
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+}
+.mini-sert img{
+	width: 10vw;
+	cursor: pointer;
+	transition: var(--duration);
+}
+.mini-sert img:hover{
+	box-shadow: var(--shad);
+	transition: var(--duration);
+	scale: 1.1;
+}
+.main-sert img{
+	width: 27vw;
+	box-shadow: var(--shad);box-shadow: var(--shad);
+}
+.mini-sert{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 30%;
+	gap: 2vw;
+	justify-content: end;
+}
+.serti-text{
+	width: 32%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: relative;
+	z-index: 99999;
+	height: 100%;
+	margin-left: 2vw;
+}
+.serti-text h2{
+	margin: 2vw 0 0 0;
+	width: 85%;
+	font-size: 0.5vw;
+	line-height: 0.8vw;
+	font-weight: 500;
+}
+.serti-text h2 span{
+	font-size: 1.2vw;
+	color: var(--blue);
+	font-weight: 500;
+	line-height: 1.1vw;
+}
+.serti-text h2 span p{
+	font-size: 0.7vw;
+	color: var(--dark_blue);
+	line-height: 0.9vw;
+	font-weight: 500;
+}
+.serti-text button{
+	width: 30% ;
+}
 
 
+.text-link{
+	display: none;
+}
+.text-link.active{
+	display: block;
+}
+
+#download-link{
+	margin-bottom: 2vw;
+	margin-top: 1vw;
+}

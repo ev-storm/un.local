@@ -46,6 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
+				
       },
 
 	});
@@ -170,4 +171,64 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	// По умолчанию активируйте первый слайд
 	slides[0].classList.add('active');
+});
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+	const downloadLink = document.getElementById('download-link');
+	const serfImg = document.getElementById('serf-img');
+	const images = document.querySelectorAll('.mini-sert img');
+	const textLinks = document.querySelectorAll('.text-link');
+
+	// Обрабатываем клик на мини-картинках
+	images.forEach((img, index) => {
+			img.addEventListener('click', function(e) {
+					const pdfNumber = index + 1;
+					downloadLink.href = `/sertifikat/${pdfNumber}.pdf`;
+					serfImg.src = `/assets/img/${pdfNumber}.png`;
+
+					// Обновляем классы active для текстовых ссылок
+					updateActiveLink(index);
+			});
+	});
+
+	// Обрабатываем клик на текстовые ссылки
+	textLinks.forEach((link, index) => {
+			link.addEventListener('click', function(e) {
+					// Устанавливаем активный элемент по индексу
+					updateActiveLink(index);
+			});
+	});
+
+	function updateActiveLink(index) {
+			textLinks.forEach(link => {
+					link.classList.remove('active'); 
+			});
+			textLinks[index].classList.add('active');
+	}
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+	const currentUrl = window.location.pathname;
+
+	// Определяем классы кнопок и соответствующие страницы
+	const menuButtons = {
+			'index.php': '.menu-btn-about',
+			'production.php': '.menu-btn-prod',
+			'contact.php': '.menu-btn-cont'
+	};
+
+	// Добавляем класс active для соответствующей кнопки
+	for (const [page, btnSelector] of Object.entries(menuButtons)) {
+			if (currentUrl.includes(page)) {
+					const button = document.querySelector(btnSelector);
+					if (button) {
+							button.classList.add('active');
+					}
+					break;  // Прерываем цикл, если кнопка уже добавлена
+			}
+	}
 });

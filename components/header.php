@@ -25,16 +25,16 @@
 		</a>
 </nav>
 	<nav class="menu">
-		<div class="menu-item-con">
-			<a class="menu-item" href="index.php">о компании</a>
+		<div class="menu-item-con menu-btn-about">
+			<a class="menu-item " href="index.php">о компании</a>
 			<div class="under-menu-item"></div>
 		</div>
-		<div class="menu-item-con">
-			<a class="menu-item" href="production.php">производство</a>
+		<div class="menu-item-con menu-btn-prod">
+			<a class="menu-item " href="production.php">производство</a>
 			<div class="under-menu-item"></div>
 		</div>
-		<div class="menu-item-con">
-			<a class="menu-item" href="contact.php">контакты</a>
+		<div class="menu-item-con menu-btn-cont">
+			<a class="menu-item " href="contact.php">контакты</a>
 			<div class="under-menu-item"></div>
 		</div>
 	</nav>

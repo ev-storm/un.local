@@ -4,6 +4,7 @@
 @import url('content.css');
 @import url('header.css');
 @import url('about.css');
+@import url('contact.css');
 
 
 /* <?php include "./components/header.php" ?> */
@@ -13,6 +14,7 @@
 	--blue: #337AB7;
 	--dark_blue: #1F496E;
 	--duration: all 0.5s ease;
+	--shad: 0 0.2vw 0.5vw #2222224f;
 }
 *{
 	cursor: auto;
@@ -43,7 +45,7 @@ h1,h2,h3,p,span{
 	border-style: solid;
 	border-width: 0.15vw;
 	border-color: var(--blue);
-	border-radius: 2vw;
+	border-radius: 0.4vw;
 	padding: 0.2vw 1vw;
 	cursor: pointer;
 	transition: all 0.3s ease;
