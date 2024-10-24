@@ -35,13 +35,13 @@ li {
 h1,h2,h3,p,span{
 	font-family: "Montserrat", sans-serif;
 	font-weight: 400;
-	font-size: 0.9vw;
+	font-size: 1.8vh;
 	color: var(--main_black);
 }
 .button{
 	font-family: "Montserrat", sans-serif;
 	font-weight: 500;
-	font-size: 0.8vw;
+	font-size: 1.8vh;
 	border-style: solid;
 	border-width: 0.15vw;
 	border-color: var(--blue);
@@ -63,5 +63,14 @@ h1,h2,h3,p,span{
 	background-color: var(--dark_blue);
 	border-color:  var(--dark_blue);
 }
-
+.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+	margin: 0.3vh !important;
+	width: 0.6vh;
+	height: 0.6vh;
+}
+.swiper-button-next:after,.swiper-button-prev:after {
+	font-size:5vh !important;
+	color: var(--blue);
+	margin: 2vh;
+}
 

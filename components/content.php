@@ -40,7 +40,7 @@
 		</div>
 		<div class="main-content_text">
 			<h1 class="text-categories move">Картонная коробка</h1>
-			<h2 class="text-segment move">Стомотология</h2>
+			<h2 class="text-segment move">Стоматология</h2>
 			<p class="text-description move">
 				Картонная коробка витамины
 			</p>

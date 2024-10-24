@@ -20,50 +20,103 @@
 
 			<div class="swiper-slide ">
 				<div class="content content-about">
+
 					<div class="about-title">
 						<h1>Поставки и изготовления комплектующих упаковки всех категорий  
-						для контрактных производств и СТМ </h1>
+						для контрактных производств и СТМ 
+						</h1>
+					</div>
+
 						<div class="about-title_text">
-							<div class="about-title_text-slide-1">
-								<h2>
-									<div class="about-title_text-1">
-										Юнайтед Пак на постоянной основе активно <span>поддерживает</span> взаимоотношения с <span>контрактными производствами и СТМ</span> в качестве <span>эффективного поставщика</span> комплектующих для упаковки и фасовки: 
-									</div>
-									</h2>
-									<div class="about_btn_text">
-										<a href="/production.php"><button class="a-2">Картонных коробок |</button></a>
-										<a href="/production.php"><button class="a-2">Туб |</button></a>
-										<a href="/production.php"><button class="a-2">Инструкций-вкладышей  |</button></a>
-										<a href="/production.php"><button class="a-2">Этикеток |</button></a>
-										<a href="/production.php"><button class="a-2">Банок |</button></a>
-										<a href="/production.php"><button class="a-2">Флаконов </button></a>
-									</div>
-
-								<div class="about-title_text-main">
-									<h3>
-									Юнайтед Пак способен поставить упаковку и комплектующие для фасовки, отвечающей требованиям потребителей по качеству продукции, и располагает необходимыми технологическими возможностями.<br><br>
-									Юнайтед Пак способен контролировать объем производства и может вложить средства, обеспечивающие выпуск необходимого количества упаковки и комплектующих для фасовки.<br><br>
-									Юнайтед Пак устанавливает приемлемую для потребителя стоимость поставляемой продукции и осуществляет поставки в заданный срок.
-									Взаимоотношения с нами исключают возникновение проблем при транспортировке продукции и предусматривают четко отлаженную связь.<br><br>
-									Юнайтед Пак придерживается контрактных обязательств и выполняет их.<br><br>
-									Юнайтед Пак располагает производственными мощностями высокого технологического уровня и готов внедрять технические новшества в будущем.<br><br>
-									Юнайтед Пак способен поставить упаковку и комплектующие для фасовки, отвечающей требованиям потребителей по качеству продукции, и располагает необходимыми технологическими возможностями.
-									</h3>
-								</div>
-
-								<a class="btn-about-con" href="/production.php">
-									<button class="btn-about">Перейти к подкатегориям</button>
-								</a>
-
-							</div>
 
 							<div class="wrapper">
 								<img class="cover"src="/assets/img/blue.png" alt="">
 								<img class="under" src="/assets/img/white.png" alt="">
 							</div>
 
-						</div>
-					</div>
+							<div class="about-title_text-slide-1">
+									<h2>
+										<div class="about-title_text-1">
+											Юнайтед Пак на постоянной основе активно поддерживает взаимоотношения с контрактными производствами и СТМ в качестве эффективного поставщика комплектующих для упаковки и фасовки: 
+										</div>
+									</h2>
+									<div class="about_btn_text">
+										<a href="/production.php"><button>Картонных коробок |</button></a>
+										<a href="/production.php"><button>Туб |</button></a>
+										<a href="/production.php"><button>Инструкций-вкладышей  |</button></a>
+										<a href="/production.php"><button>Этикеток |</button></a>
+										<a href="/production.php"><button>Банок |</button></a>
+										<a href="/production.php"><button>Флаконов </button></a>
+									</div>
+
+									<div class="about-title_text-main">
+
+									<div class="swiper swiper-v">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide swiper-v-slide">
+												<img src="/assets/icons/pus.svg" alt="">
+												<h3>
+													Юнайтед Пак способен поставить упаковку и комплектующие для фасовки, отвечающей требованиям потребителей по качеству продукции, и располагает необходимыми технологическими возможностями.
+												</h3>
+											</div>
+											<div class="swiper-slide swiper-v-slide">
+												<img src="/assets/icons/pus.svg" alt="">
+												<h3>
+													Юнайтед Пак способен контролировать объем производства и может вложить средства, обеспечивающие выпуск необходимого количества упаковки и комплектующих для фасовки.
+												</h3>
+											</div>
+											<div class="swiper-slide swiper-v-slide">
+												<img src="/assets/icons/pus.svg" alt="">
+												<h3> 
+													Юнайтед Пак устанавливает приемлемую для потребителя стоимость поставляемой продукции и осуществляет поставки в заданный срок.
+												</h3>
+											</div>
+											<div class="swiper-slide swiper-v-slide">
+												<img src="/assets/icons/pus.svg" alt="">
+												<h3>
+													Взаимоотношения с нами исключают возникновение проблем при транспортировке продукции и предусматривают четко отлаженную связь.
+												</h3>
+											</div>
+											<div class="swiper-slide swiper-v-slide">
+												<img src="/assets/icons/pus.svg" alt="">
+												<h3>
+													Юнайтед Пак придерживается контрактных обязательств и выполняет их.
+												</h3>
+											</div>
+											<div class="swiper-slide swiper-v-slide">
+												<img src="/assets/icons/pus.svg" alt="">
+												<h3>
+													Юнайтед Пак располагает производственными мощностями высокого технологического уровня и готов внедрять технические новшества в будущем.
+												</h3>
+											</div>
+											<div class="swiper-slide swiper-v-slide">
+												<img src="/assets/icons/pus.svg" alt="">
+												<h3>
+													Юнайтед Пак способен поставить упаковку и комплектующие для фасовки, отвечающей требованиям потребителей по качеству продукции, и располагает необходимыми технологическими возможностями.
+												</h3>
+											</div>
+										</div>
+									</div>
+
+
+									<a class="btn-about-con" href="/production.php">
+									<button class="btn-about">Перейти к подкатегориям</button>
+									</a>	
+
+							</div>
+
+								
+							</div>
+							</div>
+				</div>
+			</div>
+
+			
+
+				
+			<div class="swiper-slide ">
+				<div class="content content-about">
+
 				</div>
 			</div>
 
@@ -187,11 +240,15 @@
 								</div>
 					</div>
 				</div>
+				
 			</div>
-			
+			<!-- <div class="swiper-pagination"></div> -->
 		</div>
-		<div class="swiper-pagination"></div>
+		
 	</div>
+
+
+
 	
 
 	</main>

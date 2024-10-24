@@ -232,3 +232,51 @@ document.addEventListener('DOMContentLoaded', function() {
 			}
 	}
 });
+
+function checkAspectRatio() {
+	// Получаем текущую ширину и высоту окна
+	const width = window.innerWidth;
+	const height = window.innerHeight;
+
+	// Вычисляем соотношение сторон
+	const ratio = width / height;
+	const targetRatio = 1 / 1;
+
+	// Проверяем соотношение и выводим сообщение
+	let message;
+	if (ratio < targetRatio) {
+			message = "Соотношение сторон окна меньше 1:1";
+	} else if (ratio === targetRatio) {
+			message = "Соотношение сторон окна равно 1:1";
+	} else {
+			message = "Соотношение сторон окна больше 1:1";
+	}
+
+	console.log(message);
+}
+
+// Выполняем проверку соотношения при загрузке страницы
+checkAspectRatio();
+
+// Добавляем обработчик события изменения размера окна
+window.addEventListener('resize', checkAspectRatio);
+
+
+
+
+var swiper2 = new Swiper(".swiper-v", {
+	speed: 1000,
+	loop:true,
+	direction: 'vertical',
+	autoplay: {
+    delay: 3000,
+  },
+	slidesPerView: 3,
+	pagination: {
+		el: ".swiper-pagination",
+		clickable: true,
+	},
+	keyboard:  true,
+});
+
+
